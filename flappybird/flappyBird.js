@@ -61,6 +61,7 @@ function draw() {
             || bY + bird.height >= cvs.height - fg.height) {
 
             location.reload();
+            return;
         }
 
         if (pipe[i].x == 5) {
